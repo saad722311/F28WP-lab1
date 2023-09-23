@@ -113,7 +113,7 @@ main h3 {
 }
 
 .service-column img {
-    width: 100%;
+    width: 250px;
     height: auto;
     margin-bottom: 10px;
 }
@@ -141,26 +141,69 @@ main h3 {
 .cta-container {
     text-align: center;
     padding: 20px;
-    background-color: #f5f5f5;
-    margin-top: 30px;
+    background-color: #db853f;
+    margin-top: 9px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ffffff;
+}
+#textDiv{
+  text-decoration-line: underline;
+}
 
+.cta-container h2{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.cta-container p{
+    font-size: 15px;
+    font-weight: lighter;
 }
 
 .cta-button {
    display: inline-block;
     padding: 10px 20px;
-    background-color: #007BFF;
+    background-color: #000;
     color: #ffffff;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
     margin-top: 15px;
     transition: background-color 0.3s;
+    transition: all 0.5s;
+    cursor: pointer;
 }
 
 .cta-button:hover {
-    background-color: #7640B3;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); 
+    background-color: #383535;
 }
+
+.cta-button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+.cta-button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+.cta-button:hover span {
+    padding-right: 25px;
+  }
+  
+.cta-button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
 
 /* Footer Styles */
 footer {
