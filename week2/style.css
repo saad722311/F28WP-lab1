@@ -5,14 +5,14 @@ body {
        margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    color: #505050;
-    background: linear-gradient(45deg, #cc8d06, rgb(245, 47, 80));
+    color: #ffffff;
+    background: linear-gradient(45deg, #d5d742, #09ffef);
 }
 
 
 /* Header Styles */
 header {
-    background: linear-gradient(301deg, #7676c7, #000);
+    background: linear-gradient(301deg, #076b87, #212222);
     color: #fff;
     text-align: center;
     padding: 20px;
@@ -36,7 +36,7 @@ header {
 
 /* Navigation Styles */
 nav ul {
-    background-color: #333;
+    background-color: #000000;
     color: #fff;
     text-align: center;
     list-style-type: none;
@@ -50,7 +50,7 @@ nav li {
 
 nav a {
     display: block;
-    color: #fff;
+    color: #ffffff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -141,7 +141,7 @@ main h3 {
 .cta-container {
     text-align: center;
     padding: 20px;
-    background-color: #db853f;
+    background-color: #70c824;
     margin-top: 9px;
     border-style: solid;
     border-width: 1px;
@@ -177,7 +177,7 @@ main h3 {
 
 .cta-button:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); 
-    background-color: #383535;
+    background-color: #373d34;
 }
 
 .cta-button span {
