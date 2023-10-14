@@ -39,61 +39,16 @@
   
   <main class="services">
       <h1>Gallery</h1>
-      <!---Slide Show-->
-      <div class = "container">
-        <div class = "mySlides fade">
-          <div class = "numbertext">1 / 8</div>
-          <img src = "images/1.jpeg" alt = "Gallery slide show" class = "slidehow-img">
-        </div>
-        <div class = "mySlides">
-          <div class = "numbertext">2 / 8</div>
-          <img src = "images/2.jpeg" alt = "Gallery slide show" class = "slidehow-img">
-        </div>
-        <div class = "mySlides">
-          <div class = "numbertext">3 / 8</div>
-          <img src = "images/3.jpeg" alt = "Gallery slide show" class = "slidehow-img">
-        </div>
-        <div class = "mySlides">
-          <div class = "numbertext">4 / 8</div>
-          <img src = "images/4.jpeg" alt = "Gallery slide show" class = "slidehow-img">
-        </div>
-        <div class = "mySlides">
-          <div class = "numbertext">5 / 8</div>
-          <img src = "images/5.jpeg" alt = "Gallery slide show" class = "slidehow-img">
-        </div>
-        <div class = "mySlides">
-          <div class = "numbertext">6 / 8</div>
-          <img src = "images/6.jpeg" alt = "Gallery slide show" class = "slidehow-img">
-        </div>
-        <div class = "mySlides">
-          <div class = "numbertext">7 / 8</div>
-          <img src = "images/7.jpeg" alt = "Gallery slide show" class = "slidehow-img">
-        </div>
-        <div class = "mySlides">
-          <div class = "numbertext">8 / 8</div>
-          <img src = "images/8.jpeg" alt = "Gallery slide show" class = "slidehow-img">
-        </div>
-        
-        <a class="prev" onclick="plusSlides(-1)">❮</a>
-        <a class="next" onclick="plusSlides(1)">❯</a>
-
+      <div class="gallery-container">
+        <img src="images/1.jpeg" alt="Spa Image 1">
+        <img src="images/2.jpeg" alt="Spa Image 2">
+        <img src="images/3.jpeg" alt="Spa Image 3">
+        <img src="images/4.jpeg" alt="Spa Image 4">
+        <img src="images/5.jpeg" alt="Spa Image 5">
+        <img src="images/6.jpeg" alt="Spa Image 6">
+        <img src="images/7.jpeg" alt="Spa Image 7">
+        <img src="images/8.jpeg" alt="Spa Image 7">
       </div>
-      <br>
-      
-      <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span> 
-        <span class="dot" onclick="currentSlide(2)"></span> 
-        <span class="dot" onclick="currentSlide(3)"></span> 
-      </div>
-
-      <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span> 
-        <span class="dot" onclick="currentSlide(2)"></span> 
-        <span class="dot" onclick="currentSlide(3)"></span> 
-      </div>
-
-
-
    <!-- Call to Action -->
    <section class="cta-container">
     <div id = "textDiv"><h2>Ready to Experience Our Services?</h2></div>
@@ -111,33 +66,5 @@
     <p >&copy; 2024 Wanderlust Voyages | Travel Agency. All rights reserved.</p>
   </footer>
  </div>
- <script>
-  let slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
-</script>
 </body>
 </html>
