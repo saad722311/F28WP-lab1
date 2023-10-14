@@ -1,245 +1,252 @@
 /* Reset Styles */
 
 body {
-    background: scroll;
-       margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    color: #ffffff;
-    background: linear-gradient(45deg, #d5d742, #09ffef);
+  background: scroll;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  background: linear-gradient(45deg, #d5d742, #09ffef);
 }
-
 
 /* Header Styles */
 header {
-    background: linear-gradient(301deg, #076b87, #212222);
-    color: #fff;
-    text-align: center;
-    padding: 20px;
+  background: linear-gradient(301deg, #076b87, #212222);
+  color: #fff;
+  text-align: center;
+  padding: 20px;
 }
 
 .headeraH1 {
-    margin: 0;
+  margin: 0;
 }
 
 .banner {
-    width: 100%;
-    overflow: hidden;
+  width: 100%;
+  overflow: hidden;
 }
 
 .banner img {
-    width: 100%;
-    height: auto;
-    display: block;
+  width: 100%;
+  height: auto;
+  display: block;
 }
-
 
 /* Navigation Styles */
 nav ul {
-    background-color: #000000;
-    color: #fff;
-    text-align: center;
-    list-style-type: none;
-    margin: 0;
-    padding: 20px;
+  background-color: #000000;
+  color: #fff;
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
 }
 
 nav li {
-    display: inline-block;
+  display: inline-block;
 }
 
 nav a {
-    display: block;
-    color: #ffffff;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    transition: background-color 0.3s;  /* Smooth transition for hover effect */
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
 }
 
 nav a:hover {
-    background-color: #505050;  /* Darker shade for hover */
+  background-color: #505050; /* Darker shade for hover */
 }
 
 /* Banner Styles */
 .banner-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    width: 100%;
-    overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  overflow: hidden;
 }
 
 .centered-banner {
-    padding: 30px;
-    max-width: 80%;
-    height: auto;
+  padding: 30px;
+  max-width: 80%;
+  height: auto;
 }
 
 /* Main Content Styles */
 main {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 .services {
-    margin: 2rem auto;
-    padding: 2rem;
-    background-color:#000;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 main h3 {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 /* Service Columns */
 .services-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .service-column {
-    flex-basis: calc(50% - 20px);
-    max-width: calc(50% - 20px);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+  flex-basis: calc(50% - 20px);
+  max-width: calc(50% - 20px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .service-column img {
-    width: 250px;
-    height: auto;
-    margin-bottom: 10px;
+  width: 250px;
+  height: auto;
+  margin-bottom: 10px;
 }
 
 .service-column h3 {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 /* Media Queries for Responsiveness */
 @media (max-width: 800px) {
-    .service-column {
-        flex-basis: calc(50% - 20px);
-        max-width: calc(50% - 20px);
-    }
+  .service-column {
+    flex-basis: calc(50% - 20px);
+    max-width: calc(50% - 20px);
+  }
 }
 
 @media (max-width: 700px) {
-    .service-column {
-        flex-basis: 100%;
-        max-width: 100%;
-    }
+  .service-column {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
 }
 
 /* Call to Action Styles */
 .cta-container {
-    text-align: center;
-    padding: 20px;
-    background-color: #70c824;
-    margin-top: 9px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  background-color: #70c824;
+  margin-top: 9px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ffffff;
 }
-#textDiv{
+#textDiv {
   text-decoration-line: underline;
 }
 
-.cta-container h2{
-    text-transform: uppercase;
-    font-size: 25px;
+.cta-container h2 {
+  text-transform: uppercase;
+  font-size: 25px;
 }
 
-.cta-container p{
-    font-size: 15px;
-    font-weight: lighter;
+.cta-container p {
+  font-size: 15px;
+  font-weight: lighter;
 }
 
 .cta-button {
-   display: inline-block;
-    padding: 10px 20px;
-    background-color: #000;
-    color: #ffffff;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    margin-top: 15px;
-    transition: background-color 0.3s;
-    transition: all 0.5s;
-    cursor: pointer;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #000;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 15px;
+  transition: background-color 0.3s;
+  transition: all 0.5s;
+  cursor: pointer;
 }
 
 .cta-button:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); 
-    background-color: #373d34;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #373d34;
 }
 
 .cta-button span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-  }
-  
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
 .cta-button span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-  }
-  
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
 .cta-button:hover span {
-    padding-right: 25px;
-  }
-  
+  padding-right: 25px;
+}
+
 .cta-button:hover span:after {
-    opacity: 1;
-    right: 0;
-  }
+  opacity: 1;
+  right: 0;
+}
 
 /* Footer Styles */
 footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
 }
 
 footer ul {
-    margin: 0;
+  margin: 0;
 }
 
 footer li {
-    display: inline-block;
-    margin-right: 10px;
+  display: inline-block;
+  margin-right: 10px;
 }
 
 footer a {
-    color: #fff;
-    text-decoration: none;
-    transition: color 0.3s;  /* Smooth transition for hover effect */
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s; /* Smooth transition for hover effect */
 }
 
 footer a:hover {
-    color: #b3b3b3;  /* Lighter color on hover */
+  color: #b3b3b3; /* Lighter color on hover */
 }
 
 footer p {
-    margin: 10px 0 0;
+  margin: 10px 0 0;
 }
 
-* {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
-.mySlides {display: none}
-img {vertical-align: middle;}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+}
+.mySlides {
+  display: none;
+}
+img {
+  vertical-align: middle;
+}
 
 /* Slideshow container */
 .slideshow-container {
@@ -249,7 +256,8 @@ img {vertical-align: middle;}
 }
 
 /* Next & previous buttons */
-.prev, .next {
+.prev,
+.next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -271,8 +279,9 @@ img {vertical-align: middle;}
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Caption text */
@@ -307,7 +316,8 @@ img {vertical-align: middle;}
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.active,
+.dot:hover {
   background-color: #717171;
 }
 
@@ -318,12 +328,87 @@ img {vertical-align: middle;}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
+  .prev,
+  .next,
+  .text {
+    font-size: 11px;
+  }
 }
-  
+
+/* Form */
+
+/* Style for the form: setting width, auto margin for centering, padding,
+ background color, border radius for rounded corners, and font size */
+#registrationForm {
+  width: 300px;
+  margin: 20vh auto 0 auto; /* This centers the form vertically and horizontally */
+  padding: 20px;
+  background-color: whitesmoke; /* Light gray background for the form */
+  border-radius: 4px; /* Rounded corners for the form */
+  font-size: 12px;
+}
+/* Style for the form's heading: setting the text color and alignment */
+#registrationForm label {
+  color: #0f2027; /* Dark text color for the heading */
+  text-align: center; /* Center-align the heading */
+}
+
+/* Style for the form's button: padding, top margin, full width, text color,
+           background color, no border, and rounded corners */
+#registrationForm button {
+  padding: 10px;
+  margin-top: 10px; /* Space above the button */
+  width: 100%; /* Make the button expand the full width of the form */
+  color: white; /* White text color for the button */
+  background-color: rgb(41, 57, 194); /* Blue background color for the button */
+  border: none; /* Remove the default border */
+  border-radius: 4px; /* Rounded corners for the button */
+}
+
+/* Container for input fields: using flexbox for layout, column direction */
+.input-control {
+  display: flex;
+  flex-direction: column; /* Stack the children (label, input, error message) vertically */
+}
+/* Style for input fields inside the container: border style, rounded corners,
+           block-level display, font size, padding, full width */
+.input-control input {
+  border: 2px solid #f0f0f0; /* Light gray border for the inputs */
+  border-radius: 4px; /* Rounded corners for the inputs */
+  display: block; /* Display input field as a block */
+  font-size: 12px; /* Text size within the input field */
+  padding: 10px; /* Space inside the input field */
+  width: 100%; /* Input field takes up 100% of the form's width */
+}
+/* Remove focus outline from input fields */
+.input-control input:focus {
+  outline: 0; /* Remove outline when input is focused */
+}
+
+/* Style for input fields with class "success": green border */
+.input-control.success input {
+  border-color: #09c372; /* Green border to indicate successful input */
+}
+
+/* Style for input fields with class "error": red border */
+.input-control.error input {
+  border-color: #ff3860; /* Red border to indicate an error in input */
+}
+
+/* Style for the error message: text color, font size, and height */
+.input-control .error {
+  color: #ff3860; /* Red text color for error messages */
+  font-size: 9px; /* Smaller font size for error messages */
+  height: 13px; /* Explicit height to ensure consistent spacing */
+}
+
